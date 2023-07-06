@@ -1,6 +1,10 @@
 {
   "name": "stupid-ass-vite",
   "version": "0.1.0",
+  "engines": {
+    "node": "18.16.1",
+    "npm": "9.5.1"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
