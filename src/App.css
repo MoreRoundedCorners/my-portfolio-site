@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  height: 150px !important;
+  width: 200px !important;
+  margin: 2px !important;
+}
+
+.audio-player {
+  background: red !important;
+  border-radius: 50px !important;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}

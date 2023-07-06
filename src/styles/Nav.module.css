@@ -1,0 +1,8 @@
+.navItem {
+  transition: transform 0.3s;
+  transform: rotate(45deg);
+}
+
+.navItem:hover {
+  transform: rotate(35deg);
+}
