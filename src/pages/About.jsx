@@ -59,27 +59,22 @@ const About = () => {
           }`}
         >
           <p className="mb-4 font-semibold text-lg indent-2 leading-8">
-            Since adolescence, my passion has always revolved around creating
-            experiences for others to consume, savor, and appreciate. As a
-            dedicated{" "}
-            <span className="font-bold text-neutral-800 italic">
-              Software engineer
-            </span>
-            ,{" "}
-            <span className="font-bold text-neutral-800 italic">
-              Audio Engineer
-            </span>
-            , and{" "}
-            <span className="font-bold text-neutral-800 italic">
-              Musical Composer,
-            </span>{" "}
-            I find immense satisfaction in creating, innovating, and
-            contributing to the building blocks of the world that universally
-            connect people in ways that language cannot, whether independently
-            or in collaboration with like-minded individuals. Whether
-            solidifying a foundation&apos;s groundwork or creating new ceilings,
-            my primary focus is to ensure that the outcomes meet the highest
-            standards of quality and craftsmanship.
+            From adolescence, my drive for satisfaction has since revolved
+            around creating experiences for others to consume, enjoy, and
+            appreciate. As a{" "}
+            <span className="italic font-bold">Software Engineer</span> with a
+            background in{" "}
+            <span className="italic font-bold">Audio Engineering</span> and{" "}
+            <span className="italic font-bold">Musical Composition</span>, I
+            find immense satisfaction in contributing to the world's
+            hand-crafted and technological building blocks, which the universe
+            allows us to build upon in hopes of continuing the constant flow of
+            tabletop ideas turning into tangible, maintainable solutions,
+            whether independently or in collaboration with like-minded peers.
+            Whether solidifying a foundation's groundwork or creating new
+            ceilings, my primary focus is to ensure that the outcomes of one's
+            contributions consistently meet the highest standards of quality and
+            craftsmanship.
           </p>
 
           <div
