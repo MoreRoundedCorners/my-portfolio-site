@@ -11,7 +11,7 @@ const Contact = () => {
           href="https://github.com/MoreRoundedCorners"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 hover:text-blue-700 text-2xl"
+          className="text-blue-500 hover:text-blue-700 text-2xl contact"
         >
           <img
             src="https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/githubsource.png"
