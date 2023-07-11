@@ -15,6 +15,13 @@ const About = () => {
     entry,
   } = useInView({ threshold: 0.9 });
 
+  const [renderTech, setRenderTech] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setRenderTech(true);
+    }, 100);
+  }, []);
+
   const [currentSong, setCurrentSong] = useState(null);
   const songRefs = songArr.map(() => React.createRef()); // create refs for songs
 
@@ -102,9 +109,11 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2 flex flex-row flex-wrap">
-        <Technologies />
-      </div>
+      {renderTech && (
+        <div className="w-1/2 flex flex-row flex-wrap">
+          <Technologies />
+        </div>
+      )}
     </section>
   );
 };
