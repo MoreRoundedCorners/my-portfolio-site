@@ -39,7 +39,7 @@ const Contact = () => {
           />
         </a>
         <a
-          href="https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/NICHOLAS_RAMIREZ_RESUME.pdf"
+          href="https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/Nicholas_Ramirez_Resume_SWE.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:text-blue-700 text-2xl"
