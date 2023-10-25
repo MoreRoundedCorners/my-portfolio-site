@@ -68,19 +68,19 @@ const About = () => {
           <p className="mb-4 font-semibold text-lg indent-2 leading-8">
             From adolescence, my drive for satisfaction has since revolved
             around creating experiences for others to consume, enjoy, and
-            appreciate. As a{" "}
-            <span className="italic font-bold">Software Engineer</span> with a
+            appreciate. As a security minded{" "}
+            <span className="italic font-bold">IT professional</span> with a
             background in{" "}
             <span className="italic font-bold">Audio Engineering</span> and{" "}
             <span className="italic font-bold">Musical Composition</span>, I
             find immense satisfaction in contributing to the world's
             hand-crafted and technological building blocks, which the universe
             allows us to build upon in hopes of continuing the constant flow of
-            tabletop ideas turning into tangible, maintainable solutions,
-            whether independently or in collaboration with like-minded peers.
-            Whether solidifying a foundation's groundwork or creating new
-            ceilings, my primary focus is to ensure that the outcomes of one's
-            contributions consistently meet the highest standards of quality and
+            tabletop ideas turning into tangible, maintainable solutions, either
+            independently or in collaboration with like-minded peers. Whether
+            solidifying a foundation's groundwork or creating new ceilings, my
+            primary focus is to ensure that the outcomes of one's contributions
+            consistently meet the highest standards of quality and
             craftsmanship.
           </p>
 
@@ -88,25 +88,41 @@ const About = () => {
             className="border-t border-gray-500 
           text-delay animate-slideright "
           ></div>
-          <div className="songs-container flex md:flex-row flex-col justify-center">
-            {/* <img
+          <div className="flex justify-center">
+            <img
+              src="/sec+.png"
+              alt=""
+              className="h-[125px]  object-contain mx-10 my-5 rounded-2xl"
+            />
+            <img
+              src="/cy.png"
+              alt=""
+              className="h-[125px] w-[250px] object-contain mx-10 my-5 rounded-2xl"
+            />
+          </div>
+          <div
+            className="border-t border-gray-500 
+          text-delay animate-slideright "
+          ></div>
+        </div>
+        <div className="songs-container flex md:flex-row flex-col justify-center">
+          {/* <img
               src="./images/sec.png"
               className="h-40 w-40 object-cover justify-center mx-auto"
             /> */}
-            {songArr.map((song, index) => (
-              <div key={song.id} className="p-4 mx-auto lg:m-0">
-                <audio
-                  ref={songRefs[index]}
-                  controls
-                  className="w-[250px] audio-player"
-                  onPlay={() => isPlaying(song, index)}
-                  onPause={() => currentSong === index && setCurrentSong(null)}
-                >
-                  <source src={song.path} type="audio/wav" />
-                </audio>
-              </div>
-            ))}
-          </div>
+          {songArr.map((song, index) => (
+            <div key={song.id} className="p-4 mx-auto lg:m-0">
+              <audio
+                ref={songRefs[index]}
+                controls
+                className="w-[250px] audio-player"
+                onPlay={() => isPlaying(song, index)}
+                onPause={() => currentSong === index && setCurrentSong(null)}
+              >
+                <source src={song.path} type="audio/wav" />
+              </audio>
+            </div>
+          ))}
         </div>
       </div>
       {renderTech && (

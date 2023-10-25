@@ -37,11 +37,11 @@ const Home = () => {
             </p>
             <div className="text-5xl flex flex-row my-">
               <Typewriter
-                words={["Building Software. Solving Problems. "]}
+                words={["Securing, Building, and Maintaining. "]}
                 loop={1}
                 cursor
                 cursorStyle=""
-                typeSpeed={50}
+                typeSpeed={33}
                 deleteSpeed={50}
                 delaySpeed={1000}
                 onLoopDone={handleDone}
@@ -51,8 +51,8 @@ const Home = () => {
             </div>
 
             <p className="text-lg mt-4 font-Newsreader text-gray-700 max-w-4xl intro text-center sm:text-left">
-              Dedicated to designing, building and maintaining exceptional
-              digital products, while enjoying every step of the way.
+              Dedicated to creating, improving, and enhancing digital products,
+              while enjoying every step of the way.
             </p>
             <hr
               ref={jumboRef}
