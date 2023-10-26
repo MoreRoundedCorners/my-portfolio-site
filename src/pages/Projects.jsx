@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { setProjectInView } from "../redux/reducer/viewReducer";
 import { useSelector, useDispatch } from "react-redux";
+import { Card, Row, Text } from "@nextui-org/react";
 
 const Projects = () => {
   const {
@@ -44,7 +45,7 @@ const Projects = () => {
     <section
       ref={projectSection}
       id="projects"
-      className="flex flex-col justify-center items-center min-h-screen pt-[24px] mb-10"
+      className="flex flex-col justify-center items-center min-h-screen pt-[24px] mb-10 "
     >
       {/* <p className="font-Newsreader font-bold mx-auto text-center justify-center animate-slideup text-4xl mb-5">
         Projects
@@ -53,8 +54,8 @@ const Projects = () => {
       {/* project 1 */}
       <div
         ref={projectView}
-        className={`flex flex-col justify-between mx-auto ${
-          projectVisible ? "animate-slidedown" : ""
+        className={`flex flex-col min-h-screen justify-center mx-auto ${
+          projectVisible ? "animate-slideup" : ""
         }`}
       >
         <p className="font-extrabold text-4xl indent-4 pb-2">
@@ -138,9 +139,49 @@ const Projects = () => {
         </div>
         <hr className="border-t border-gray-500 my-8  mx-aut"></hr>
       </div>
-      {/* project 2 */}
+      {/* certifications */}
+      <div
+        ref={projectView2}
+        className={`flex flex-col min-h-screen justify-center w-[1000px] mx-auto mt-44 ${
+          projectVisible2 ? "animate-slowfade" : ""
+        }`}
+      >
+        <p className="font-extrabold text-4xl indent-4 pb-2">Certifications</p>
 
-      <hr className="border-t border-gray-500"></hr>
+        <hr className="border-t border-gray-500 my-2 mb-8"></hr>
+
+        <div className="flex flex-row items-center justify-center">
+          <div className="mx-10 card-1-div">
+            <Card
+              isHoverable
+              isPressable
+              className="flex cert-card cert-card-1 ml-4 "
+            >
+              <img src="/sec+.png" className=" object-cover h-24" />
+              <div className="my-auto pr-10">
+                <p className="">CompTia Security + (SYO-601)</p>
+                <p className="italic">Candidate ID: COMP001022327561</p>
+              </div>
+            </Card>
+          </div>
+          <hr className="border-t border-gray-500 my-2 mb-8"></hr>
+          <div className="mx-10 card-2-div">
+            <Card
+              isHoverable
+              isPressable
+              className="flex cert-card cert-card-2 ml-4"
+            >
+              <img src="/cy.png" className="object-contain h-20 mb-4 pr-12" />
+              <div className="">
+                <p>CompTia CySA + (CSO-003)</p>
+                <p className="italic">Candidate ID: COMP001022327561</p>
+              </div>
+            </Card>
+          </div>
+        </div>
+
+        <hr className="border-t border-gray-500 my-8 mx-aut"></hr>
+      </div>
     </section>
   );
 };

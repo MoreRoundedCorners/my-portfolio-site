@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Typewriter } from "react-simple-typewriter";
+import { Card } from "@nextui-org/react";
 
 const Home = () => {
   const { ref: jumboRef, inView: jumboVisible, entry3 } = useInView();

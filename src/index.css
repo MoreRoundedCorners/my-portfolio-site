@@ -7,3 +7,28 @@
   width: 200px !important;
   margin: 2px !important;
 }
+.cert-card {
+  margin: 2p !important;
+  display: flex !important;
+  padding: 20px !important;
+  margin-right: 10px !important;
+}
+
+.cert-card-2 {
+  width: 350px !important;
+
+  flex-direction: column !important;
+  padding-top: 20xx !important;
+  /* margin-right: 40px !important; */
+}
+
+.cert-card-3 {
+  width: 100px !important;
+
+  padding-top: 20px !important;
+}
+.card-1-div .nextui-c-BDLTQ,
+.card-2-div .nextui-c-BDLTQ {
+  border: 6px solid black !important;
+  border-color: black !important;
+}

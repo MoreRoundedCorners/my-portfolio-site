@@ -14,7 +14,7 @@ module.exports = {
         slideleft: "slideleft 1s ease-in-out",
         slideright: "slideright 1s ease-in-out",
         wave: "wave 2.2s linear infinite",
-        slowfade: "slowfade 2.2s ease-in-out",
+        slowfade: "slowfade 1.25s ease-in-out",
         bounce: "bounce 1s ease-in-out",
         "bounce-slow": "bounce 2s ease-in-out",
         "bounce-back": "bounce-back 1.5s ease-out",

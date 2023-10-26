@@ -36,7 +36,7 @@ function TechCard({ tech }) {
     >
       <Card isHoverable isPressable className="card" key={tech.id}>
         <Card.Body>
-          <Card.Image src={tech.logo} />
+          <Card.Image src={tech.logo} className="" />
         </Card.Body>
         <Card.Footer>
           <Row wrap="wrap" justify="space-between" align="center">

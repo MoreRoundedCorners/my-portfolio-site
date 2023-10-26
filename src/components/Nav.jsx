@@ -62,6 +62,7 @@ const navItems = [
     ),
     link: "/projects",
   },
+
   {
     image: (
       <FontAwesomeIcon
