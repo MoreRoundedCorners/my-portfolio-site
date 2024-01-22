@@ -47,7 +47,7 @@ function TechCard({ tech }) {
                 fontSize: "$md",
                 textAlign: "center",
                 mx: "auto",
-                fontSize: "1.2rem",
+                fontSize: "1.1rem",
               }}
             >
               {/* <hr className="w-40"></hr> */}

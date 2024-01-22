@@ -1,56 +1,56 @@
 export const techArr = [
   {
     id: 1,
-    logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/sec+(2).png",
-    techName: "CompTIA Security+",
+    logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/2ccna.jpg",
+    techName: "Cisco CCNA (200-301)",
   },
   {
     id: 2,
-    logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/cy.png",
-    techName: "CompTIA CySA+",
+    logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/sec+(2).png",
+    techName: "CompTIA Security+ (SY0-501)",
   },
   {
     id: 3,
+    logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/cy.png",
+    techName: "CompTIA CySA+ (CS0-003)",
+  },
+  {
+    id: 4,
     logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/splunk.png",
     techName: "Splunk",
   },
   {
-    id: 4,
+    id: 5,
     logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/wireshark.png",
     techName: "Wireshark",
   },
 
   {
-    id: 5,
+    id: 6,
     logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/nmap.png",
     techName: "Nmap",
   },
   {
-    id: 6,
+    id: 7,
     logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/kali.png",
     techName: "Kali Linux",
   },
   {
-    id: 7,
+    id: 8,
     logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/jjs.png",
     techName: "Javascript (ES6+)",
   },
   {
-    id: 8,
+    id: 9,
     logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/html55.png",
-    techName: "HTML5",
+    techName: "HTML",
   },
   {
-    id: 9,
+    id: 10,
     logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/r.png",
     techName: "React",
   },
 
-  {
-    id: 10,
-    logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/sqlll.png",
-    techName: "SQL",
-  },
   {
     id: 11,
     logo: "https://portfolio-data-bucket17.s3.us-west-1.amazonaws.com/aws.png",
